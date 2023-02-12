@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0Jtd7qETCWwixAbHvgVlTMfY/+AwF1aLBAoV17xvd4Y=",
+  "Hash": "O8/ROS9YmxsaoJ7qKLfRnqHQG2CjnC4HftCeeT2r0yc=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\User\\Documents\\Personal Projects\\Bulky-Book\\BulkyBook\\BulkyBookWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BulkyBookWeb.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\Personal Projects\\Bulky-Book\\BulkyBook\\BulkyBookWeb\\wwwroot\\css\\boostrapwatchTheme.css",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\Personal Projects\\Bulky-Book\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "css/boostrapwatchTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\boostrapwatchTheme.css"
     },
     {
       "Identity": "C:\\Users\\User\\Documents\\Personal Projects\\Bulky-Book\\BulkyBook\\BulkyBookWeb\\wwwroot\\css\\site.css",
