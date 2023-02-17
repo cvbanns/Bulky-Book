@@ -1,4 +1,6 @@
 using BulkyBook.DataAccess.Data;
+using BulkyBook.DataAccess.Repository;
+using BulkyBook.DataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 
 namespace BulkyBookWeb
@@ -14,6 +16,7 @@ namespace BulkyBookWeb
             builder.Services.AddDbContext<ApplicationDbContext>(op => op.UseSqlServer(
                 builder.Configuration.GetConnectionString("DefaultConnection")
                 ));
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
 
