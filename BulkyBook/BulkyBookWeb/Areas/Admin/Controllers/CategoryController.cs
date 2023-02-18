@@ -3,8 +3,9 @@ using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBook.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BulkyBookWeb.Controllers
+namespace BulkyBookWeb.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -23,17 +24,17 @@ namespace BulkyBookWeb.Controllers
         {
             return View();
         }
-        
+
         // POST
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(Category category)
         {
-            if(category.Name == category.DisplayOrder.ToString())
+            if (category.Name == category.DisplayOrder.ToString())
             {
                 ModelState.AddModelError("Name", "The DisplayOrder can't have the same value as the Name");
             }
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 _unitOfWork.Category.Add(category);
                 _unitOfWork.Save();
@@ -51,9 +52,9 @@ namespace BulkyBookWeb.Controllers
                 return NotFound();
             }
             var category = _unitOfWork.Category.GetFirstOrDefault(x => x.Id == id);
-            if (category == null) 
-            { 
-                return NotFound(); 
+            if (category == null)
+            {
+                return NotFound();
             }
             return View(category);
         }
@@ -104,10 +105,10 @@ namespace BulkyBookWeb.Controllers
                 return NotFound();
             }
             _unitOfWork.Category.Remove(category);
-                _unitOfWork.Save();
+            _unitOfWork.Save();
             TempData["success"] = "Category deleted successfully";
 
-            return RedirectToAction("Index");           
+            return RedirectToAction("Index");
         }
 
     }
