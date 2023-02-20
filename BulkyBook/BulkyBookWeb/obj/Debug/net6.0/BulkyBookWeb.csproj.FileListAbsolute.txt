@@ -1476,3 +1476,5 @@ C:\Users\User\Documents\Personal Projects\Bulky-Book\BulkyBook\BulkyBookWeb\bin\
 C:\Users\User\Documents\Personal Projects\Bulky-Book\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.pdb
 C:\Users\User\Documents\Personal Projects\Bulky-Book\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.pdb
 C:\Users\User\Documents\Personal Projects\Bulky-Book\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Documents\Personal Projects\Bulky-Book\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\User\Documents\Personal Projects\Bulky-Book\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
