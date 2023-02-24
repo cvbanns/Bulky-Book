@@ -57,12 +57,12 @@
 
         <div class="mb-3">
             <label asp-for="Product.ImageUrl"></label>
-            <input type="file" id="uploadBox" class="form-control" />
+            <input type="file" id="uploadBox"  name="file"  class="form-control" />
         </div>
        
         <div class="mb-3 col-6">
             <label asp-for="Product.CategoryId"></label>
-            <select asp-for="Product.CategoryId" asp-items="@Model.CategoryList" class="form-select">
+            <select asp-for="Product.CategoryId" class="form-select"  asp-items="@(Model.CategoryList)">
                 <option disabled selected>--Select Category--</option>
             </select>
             <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
@@ -92,10 +92,10 @@
     </div>
 
 </form>
+
+
 @section Scripts{
-    @{
-        <partial name="_ValidationScriptsPartial" />
-    }
+    
     <script>
         function ValidateInput(){
             if(document.getElementById("uploadBox").value==""){
@@ -108,6 +108,8 @@
             } return true;
         }
         </script>
-   
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
 }
 

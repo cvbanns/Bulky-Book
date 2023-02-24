@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\BulkyBookWeb.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\User\\Documents\\Personal Projects\\Bulky-Book\\BulkyBook\\BulkyBookWeb\\wwwroot\\Images\\Products\\198285f9-3b1d-49fc-a3f3-5a5d61072992.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\198285f9-3b1d-49fc-a3f3-5a5d61072992.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Documents\\Personal Projects\\Bulky-Book\\BulkyBook\\BulkyBookWeb\\wwwroot\\css\\Flat.css",
       "PackagePath": "staticwebassets\\css\\Flat.css"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "C:\\Users\\User\\Documents\\Personal Projects\\Bulky-Book\\BulkyBook\\BulkyBookWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Personal Projects\\Bulky-Book\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
       "Id": "C:\\Users\\User\\Documents\\Personal Projects\\Bulky-Book\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\site.js",

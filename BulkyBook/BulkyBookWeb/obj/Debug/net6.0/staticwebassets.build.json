@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P9PU+yCnpazF85s9k1lZ7jVeY87wlemg9OIpaD0tCUs=",
+  "Hash": "HTH232Z8JVoztm8IFCSoMCQwItH07AMfA+qP06P1MWI=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -117,6 +117,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\Personal Projects\\Bulky-Book\\BulkyBook\\BulkyBookWeb\\wwwroot\\Images\\Products\\198285f9-3b1d-49fc-a3f3-5a5d61072992.jpg",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\Personal Projects\\Bulky-Book\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "Images/Products/198285f9-3b1d-49fc-a3f3-5a5d61072992.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Products\\198285f9-3b1d-49fc-a3f3-5a5d61072992.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\Personal Projects\\Bulky-Book\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\product.js",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\Personal Projects\\Bulky-Book\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "js/product.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
       "Identity": "C:\\Users\\User\\Documents\\Personal Projects\\Bulky-Book\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\site.js",
